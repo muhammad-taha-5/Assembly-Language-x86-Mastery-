@@ -1,0 +1,57 @@
+.stack 0x100
+  .model  small 
+   .data 
+   
+   .code 
+   
+                
+   mov ax,@data
+   mov ds,ax    
+   
+          ; mov ax,0x1f01
+          ; mov bx,0xa0ef
+           ;mov cx,0x7704
+           ;mov dx,0x34b0
+                
+           
+           
+                 
+                  ;; this how we are just putting the into the memory 
+    mov  word ptr ds:[1000],0x1f01
+    mov  word ptr ds:[1002],0xa0ef
+    mov  word ptr ds:[1004],0x7704
+    mov  word ptr ds:[1006],0x34b0
+    mov  word ptr ds:[1008],0x2250
+                                     
+                                        
+                       
+                         ;; this how we are just getting data from the memory                 
+      mov dx,0 ; dx=0   
+                
+      mov ax, [1000]
+      add dx, ax    
+      
+      mov ax, [1002]
+      add dx, ax 
+       
+      mov ax, [1004]
+      add dx, ax 
+             
+      mov ax, [1006]
+      add dx, ax 
+      
+       mov ax, [1008]
+      add dx, ax       
+                 
+               mov bx,0
+           mov bx,0xcd1f      
+           mov es,bx   
+           mov   word ptr ds:[0003],dx  
+              
+                 
+                 
+                 
+           
+                 
+            hlt
+         .exit
