@@ -20,7 +20,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B" />
   <img src="https://img.shields.io/badge/Language-Assembly-6e4c1b?style=for-the-badge&logo=assembly" />
-  <img src="https://img.shields.io/badge/Paradigm-OOP_Low-Level-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Level-Advanced-blueviolet?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
 </p>
@@ -50,6 +49,27 @@
 | **Subroutines & Modular Code** | Writing reusable code blocks using `CALL` and `RET` for tasks like factorial, sum, and sorting. | `subroutines.asm` |
 | **Input / Output Handling** | Reading user input and displaying results using system calls or interrupts, converting numbers to strings manually. | `io_operations.asm` |
 
+---
+### 3. 🟦 Assembly Language Mastery (x86)
+<p align="center">
+  <img src="https://img.shields.io/badge/Register_EAX-Ready-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Register_EBX-Ready-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Register_ECX-Ready-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Register_EDX-Ready-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Memory_Addressing-Pro_level-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Logic_Implementation-Optimized-success?style=for-the-badge" />
+</p>
+
+- **High Proficiency in Register Manipulation:** Efficiently using EAX, EBX, ECX, and EDX for optimized computations.
+- **Memory Addressing Expertise:** Handling segment offsets and direct/indirect memory access.
+- **Conditional Logic & Loops:** Implemented at machine level for real-world efficiency.
+- **Grade Highlight:** 🏆 **Assembly Lab – A** | Theory – B+  
+
+---
+## 🛠️ Technical Skillset
+<p align="left">
+<img src="https://skillicons.dev/icons?i=cpp,visualstudio,git,github,linux" />
+</p>
 ---
 
 ## 📂 Assembly Lab Highlights
